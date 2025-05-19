@@ -38,8 +38,10 @@ Make sure your internet connection is stable.
 The downloaded .mp3 files will be saved in the music/ folder.
 
 📌 Example
-Enter the YouTube video or playlist URL:
-https://www.youtube.com/watch?v=example
+
+    ```less
+      Enter the YouTube video or playlist URL:
+      https://www.youtube.com/watch?v=example
 That's it! Enjoy your music! 🎧
 
 
