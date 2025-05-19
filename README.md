@@ -11,14 +11,15 @@ A simple Python script to download MP3 files from YouTube videos or playlists us
    ```bash
    pip install yt-dlp
 
-
 Or follow the instructions from yt-dlp GitHub for your OS.
 
 Run the Script
 
 Open your terminal and run:
 
-python music.py
+    ```bash
+    python music.py
+    
 Enter URL
 Paste your YouTube video URL or playlist URL when prompted.
 
