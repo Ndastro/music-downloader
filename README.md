@@ -17,9 +17,8 @@ Run the Script
 
 Open your terminal and run:
 
-    ```bash
     python music.py
-    
+
 Enter URL
 Paste your YouTube video URL or playlist URL when prompted.
 
@@ -39,9 +38,9 @@ The downloaded .mp3 files will be saved in the music/ folder.
 
 📌 Example
 
-    ```less
       Enter the YouTube video or playlist URL:
       https://www.youtube.com/watch?v=example
+
 That's it! Enjoy your music! 🎧
 
 
