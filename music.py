@@ -13,14 +13,20 @@ playlist_url = input("Enter YouTube Playlist URL: ")
 ydl_opts = {
     'format': 'bestaudio/best',
     'ignoreerrors': True,
-    'outtmpl': f'{output_folder}/%(title)s.%(ext)s',  # Save in music/ folder
+    'outtmpl': f'{output_folder}/%(title)s.%(ext)s',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
         'preferredquality': '192',
     }],
-    'noplaylist': False,  # Allow full playlist download
-    'quiet': False,  # Show progress
+    'noplaylist': False,
+    'quiet': False,
+    # correct extractor args format for Python API
+    'extractor_args': {
+        'youtube': {
+            'player_client': ['android']
+        }
+    }
 }
 
 # Start download
